@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		ACA435681E4ABD17001FF19E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA435671E4ABD17001FF19E /* main.m */; };
 		ACA4356B1E4ABD17001FF19E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4356A1E4ABD17001FF19E /* AppDelegate.m */; };
-		ACA4356E1E4ABD17001FF19E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4356D1E4ABD17001FF19E /* ViewController.m */; };
 		ACA435711E4ABD17001FF19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA4356F1E4ABD17001FF19E /* Main.storyboard */; };
 		ACA435731E4ABD17001FF19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA435721E4ABD17001FF19E /* Assets.xcassets */; };
 		ACA435761E4ABD17001FF19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA435741E4ABD17001FF19E /* LaunchScreen.storyboard */; };
 		ACA435811E4ABD17001FF19E /* ADCarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA435801E4ABD17001FF19E /* ADCarouselViewTests.m */; };
 		ACA4358C1E4ABD17001FF19E /* ADCarouselViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4358B1E4ABD17001FF19E /* ADCarouselViewUITests.m */; };
+		ACA4359C1E4ABE08001FF19E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4359B1E4ABE08001FF19E /* ViewController.m */; };
+		ACA435A21E4ABE11001FF19E /* ADCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4359F1E4ABE11001FF19E /* ADCarouselView.m */; };
+		ACA435A31E4ABE11001FF19E /* ADPageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA435A11E4ABE11001FF19E /* ADPageControlView.m */; };
+		B850252F0995B7358F7DD88D /* libPods-ADCarouselView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 043C42694479A6A5EE3B85EC /* libPods-ADCarouselView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043C42694479A6A5EE3B85EC /* libPods-ADCarouselView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADCarouselView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B17F8A6FD541E34A463B5F /* Pods-ADCarouselView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCarouselView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADCarouselView/Pods-ADCarouselView.debug.xcconfig"; sourceTree = "<group>"; };
 		ACA435631E4ABD17001FF19E /* ADCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA435671E4ABD17001FF19E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACA435691E4ABD17001FF19E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACA4356A1E4ABD17001FF19E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ACA4356C1E4ABD17001FF19E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ACA4356D1E4ABD17001FF19E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ACA435701E4ABD17001FF19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACA435721E4ABD17001FF19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA435751E4ABD17001FF19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,13 @@
 		ACA435871E4ABD17001FF19E /* ADCarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA4358B1E4ABD17001FF19E /* ADCarouselViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCarouselViewUITests.m; sourceTree = "<group>"; };
 		ACA4358D1E4ABD17001FF19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA4359A1E4ABE08001FF19E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACA4359B1E4ABE08001FF19E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACA4359E1E4ABE11001FF19E /* ADCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCarouselView.h; sourceTree = "<group>"; };
+		ACA4359F1E4ABE11001FF19E /* ADCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCarouselView.m; sourceTree = "<group>"; };
+		ACA435A01E4ABE11001FF19E /* ADPageControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPageControlView.h; sourceTree = "<group>"; };
+		ACA435A11E4ABE11001FF19E /* ADPageControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPageControlView.m; sourceTree = "<group>"; };
+		D7E0D72786B463053BB523E3 /* Pods-ADCarouselView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCarouselView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADCarouselView/Pods-ADCarouselView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B850252F0995B7358F7DD88D /* libPods-ADCarouselView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506D173D6597A70CA6B1D50F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043C42694479A6A5EE3B85EC /* libPods-ADCarouselView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		622EE01555B979F53B5F9FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B17F8A6FD541E34A463B5F /* Pods-ADCarouselView.debug.xcconfig */,
+				D7E0D72786B463053BB523E3 /* Pods-ADCarouselView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ACA4355A1E4ABD17001FF19E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				ACA4357F1E4ABD17001FF19E /* ADCarouselViewTests */,
 				ACA4358A1E4ABD17001FF19E /* ADCarouselViewUITests */,
 				ACA435641E4ABD17001FF19E /* Products */,
+				622EE01555B979F53B5F9FD0 /* Pods */,
+				506D173D6597A70CA6B1D50F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +133,8 @@
 			children = (
 				ACA435691E4ABD17001FF19E /* AppDelegate.h */,
 				ACA4356A1E4ABD17001FF19E /* AppDelegate.m */,
-				ACA4356C1E4ABD17001FF19E /* ViewController.h */,
-				ACA4356D1E4ABD17001FF19E /* ViewController.m */,
+				ACA4359D1E4ABE11001FF19E /* ADCarouselView */,
+				ACA435991E4ABD5F001FF19E /* ADCarouselViewExample */,
 				ACA4356F1E4ABD17001FF19E /* Main.storyboard */,
 				ACA435721E4ABD17001FF19E /* Assets.xcassets */,
 				ACA435741E4ABD17001FF19E /* LaunchScreen.storyboard */,
@@ -140,6 +170,26 @@
 			path = ADCarouselViewUITests;
 			sourceTree = "<group>";
 		};
+		ACA435991E4ABD5F001FF19E /* ADCarouselViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4359A1E4ABE08001FF19E /* ViewController.h */,
+				ACA4359B1E4ABE08001FF19E /* ViewController.m */,
+			);
+			path = ADCarouselViewExample;
+			sourceTree = "<group>";
+		};
+		ACA4359D1E4ABE11001FF19E /* ADCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4359E1E4ABE11001FF19E /* ADCarouselView.h */,
+				ACA4359F1E4ABE11001FF19E /* ADCarouselView.m */,
+				ACA435A01E4ABE11001FF19E /* ADPageControlView.h */,
+				ACA435A11E4ABE11001FF19E /* ADPageControlView.m */,
+			);
+			path = ADCarouselView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACA435901E4ABD17001FF19E /* Build configuration list for PBXNativeTarget "ADCarouselView" */;
 			buildPhases = (
+				B4C58A4428D05950B1B62056 /* [CP] Check Pods Manifest.lock */,
 				ACA4355F1E4ABD17001FF19E /* Sources */,
 				ACA435601E4ABD17001FF19E /* Frameworks */,
 				ACA435611E4ABD17001FF19E /* Resources */,
+				DCC5FAE589774B12AA4963BD /* [CP] Embed Pods Frameworks */,
+				F9C369B9F9CFC45B61B79C8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +321,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4C58A4428D05950B1B62056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC5FAE589774B12AA4963BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCarouselView/Pods-ADCarouselView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C369B9F9CFC45B61B79C8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCarouselView/Pods-ADCarouselView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACA4355F1E4ABD17001FF19E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA4356E1E4ABD17001FF19E /* ViewController.m in Sources */,
+				ACA4359C1E4ABE08001FF19E /* ViewController.m in Sources */,
+				ACA435A21E4ABE11001FF19E /* ADCarouselView.m in Sources */,
 				ACA4356B1E4ABD17001FF19E /* AppDelegate.m in Sources */,
 				ACA435681E4ABD17001FF19E /* main.m in Sources */,
+				ACA435A31E4ABE11001FF19E /* ADPageControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +525,7 @@
 		};
 		ACA435911E4ABD17001FF19E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B17F8A6FD541E34A463B5F /* Pods-ADCarouselView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADCarouselView/Info.plist;
@@ -433,6 +537,7 @@
 		};
 		ACA435921E4ABD17001FF19E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E0D72786B463053BB523E3 /* Pods-ADCarouselView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADCarouselView/Info.plist;
