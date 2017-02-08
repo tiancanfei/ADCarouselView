@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADCarouselView"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "轮播图"
 
   s.description  = <<-DESC
