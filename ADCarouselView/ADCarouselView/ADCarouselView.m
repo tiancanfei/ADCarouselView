@@ -1,7 +1,7 @@
 //
 //  ADCarouselView.m
-//  test
-//
+//  ADCarouselView
+//  
 //  Created by andehang on 16/3/3.
 //  Copyright © 2016年 andehang. All rights reserved.
 //

@@ -1,10 +1,10 @@
 //
 //  ADPageControlView.h
-//  ADCarouselViewExample
+//  ADCarouselView
 //
 //  Created by andehang on 16/9/27.
 //  Copyright © 2016年 andehang. All rights reserved.
-//  分页小点的背景图片覆盖北京颜色
+//  分页小点的背景图片覆盖背景颜色
 
 #import <UIKit/UIKit.h>
 

@@ -1,6 +1,6 @@
 //
 //  ADPageControlView.m
-//  ADCarouselViewExample
+//  ADCarouselView
 //
 //  Created by andehang on 16/9/27.
 //  Copyright © 2016年 andehang. All rights reserved.
